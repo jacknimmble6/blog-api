@@ -22,6 +22,4 @@ router.get('/posts/:id', getPostById)
 router.delete('/posts/:id', deletePostById)
 router.post('/posts/:id/commentPost', createComment)
 
-
-
 export default router
